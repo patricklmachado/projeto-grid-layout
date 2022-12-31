@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+/*---------------------------------------------------*/
+/* CONFIGS GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-padrao);
+}
+
+/*---------------------------------------------------*/
+/* PRÉ-DEFINIÇÕES */
+:root{
+    --cor01: #5e97c6;
+    --cor02: #2f6999;
+    --cor03: #2c2d2e;
+    --cor04: #060708;
+    --corText: #9ea7af;
+    --font-padrao: Arial, Helvetica, sans-serif;
+}
+
+/*---------------------------------------------------*/
+/* CORPO */
+html, body{
+    height: 100vh;
+}
+
+body{
+    background-color: white;
+}
+
+/*---------------------------------------------------*/
+/* CABEÇALHO */
+header{
+    background-color: var(--cor03);
+    padding: 10px;
+    border-bottom: 4px solid white;
+}
+
+header .titulo-principal, .sub-titulo-principal{
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    animation: animacao;
+}
+
+/*---------------------------------------------------*/
+/* MENU */
+.caixa-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 99vw;
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+}
+
+nav li{
+    margin-left: 20px;
+    display: inline-block;
+}
+
+nav li:hover{
+    transform: translate(-2px, -2px);
+    transition: 1s;
+}
+
+nav li a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: var(--cor01);
+}
+
+nav li a:hover{
+    background-color: var(--cor03);
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+    transition: 1s;
+}
+
+/*---------------------------------------------------*/
+/* MAIN */
+#secao-grid{
+    padding: 30px;
+}
+
+/* GRIDS - Improvisadas */
+.div-geral{
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    height: 660px;
+    width: 500px;
+    padding: 10px;
+}
+
+.titulo-grid{
+    text-align: center;
+}
+
+/* GRID CIMA - Todas */
+
+.grid-cima{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--cor01);
+    height: 100px;
+    width: 460px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.grid-c1{
+    background-color: black;
+    height: 80px;
+    width: 210px;
+    margin: 10px;
+    background: url('imagens/perfil.jpg') no-repeat top center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.grid-c2{
+    background-color: rgb(226, 76, 76);
+    height: 80px;
+    width: 210px;
+    margin: 10px;
+    background: url('imagens/perfil.jpg') no-repeat top center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+/* GRID MEIO - Todas */
+
+.grid-meio{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--cor01);
+    height: 250px;
+    width: 460px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 10px;    
+}
+
+.grid-m1{
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    height: 230px;
+    width: 153px;
+    margin: 10px;
+    background: url('imagens/perfil.jpg') no-repeat top center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.grid-m2{
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    height: 230px;
+    width: 153px;
+    margin: 10px;
+    background: url('imagens/perfil.jpg') no-repeat center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.grid-m3{
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    height: 230px;
+    width: 153px;
+    margin: 10px;
+    background: url('imagens/perfil.jpg') no-repeat bottom;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+/* GRID BAIXO - Todas */
+
+.grid-baixo{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--cor01);
+    height: 250px;
+    width: 460px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.grid-b1{
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    height: 230px;
+    width: 210px;
+    margin: 10px;
+    background: url('imagens/perfil.jpg') no-repeat center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.grid-b2{
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    height: 230px;
+    width: 210px;
+    margin: 10px;
+    background: url('imagens/perfil.jpg') no-repeat center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+/*---------------------------------------------------*/
+
+footer{
+    background-color: var(--cor03);
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+footer p{
+    color: var(--corText);
+}
+
+footer p strong{
+    color: white;
+}

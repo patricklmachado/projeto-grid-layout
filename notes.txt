@@ -1,0 +1,41 @@
+cores utilizadas em [MENU HEADER]:
+
+Estabelecer no (:root) para todo o projeto
+azul claro: #0088c8
+azul escuro: #033047
+
+
+------------ [MINI HEADER] ------------
+* DIV com uma WIDTH centralizada
+- cor utilizada: #343434
+- (icon.telefone) número de telefone
+- (icon.email) email profissional de contato
+- (icon.facebook) - Final da DIV e Linkado
+- (icon.instagram) - Final da DIV e linkado
+
+------------ [HEADER] ------------
+- Fundo Branco
+* DIV com uma WIDTH centralizada MAIOR que a anterior
+- (imagem.png) logo da Empresa
+- Menu com FLEXBOX alinhado na HORIZONTAL
+- Home|Empresa|Serviços|Portfólio|Contato
+--> Todas as letras do MENU em MAIÚSCULA
+
+- (imagem.jpeg) ocupando a tela inteira
+- (barra) contendo a seguinte mensagem:
+--> DIVULGUE SUA EMPRESA, SERVIÇOS E PRODUTOS 24 HORAS POR DIA
+
+------------ [MAIN] ------------
+(GRID)
+- Fundo branco
+- GRID centralizada
+- 1 div / 2 colunas horizontal
+- 2 div / 3 colunas vertical 
+- 3 div / 2 colunas horizontal
+
+------------ [FOOTER] ------------
+(GRID)
+- Fundo azul claro: #0088c8
+- GRID centralizada
+- 1 div / 4 colunas vertical
+- 2 div / 4 colunas vertical
