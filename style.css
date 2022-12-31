@@ -127,7 +127,8 @@ nav li a:hover{
     height: 80px;
     width: 210px;
     margin: 10px;
-    background: url('imagens/perfil.jpg') no-repeat top center;
+    background: url('imagens/avatar-perfil.png') no-repeat center center;
+    background-size: 80px;
     border: 1px solid white;
     border-radius: 10px;
 }
@@ -137,7 +138,8 @@ nav li a:hover{
     height: 80px;
     width: 210px;
     margin: 10px;
-    background: url('imagens/perfil.jpg') no-repeat top center;
+    background: url('imagens/avatar-perfil.png') no-repeat center center;
+    background-size: 80px;
     border: 1px solid white;
     border-radius: 10px;
 }
@@ -162,7 +164,8 @@ nav li a:hover{
     height: 230px;
     width: 153px;
     margin: 10px;
-    background: url('imagens/perfil.jpg') no-repeat top center;
+    background: url('imagens/avatar-perfil.png') no-repeat top center;
+    background-size: 80px;
     border: 1px solid white;
     border-radius: 10px;
 }
@@ -174,7 +177,8 @@ nav li a:hover{
     height: 230px;
     width: 153px;
     margin: 10px;
-    background: url('imagens/perfil.jpg') no-repeat center;
+    background: url('imagens/avatar-perfil.png') no-repeat center center;
+    background-size: 80px;
     border: 1px solid white;
     border-radius: 10px;
 }
@@ -186,7 +190,8 @@ nav li a:hover{
     height: 230px;
     width: 153px;
     margin: 10px;
-    background: url('imagens/perfil.jpg') no-repeat bottom;
+    background: url('imagens/avatar-perfil.png') no-repeat bottom center;
+    background-size: 80px;
     border: 1px solid white;
     border-radius: 10px;
 }
@@ -211,7 +216,8 @@ nav li a:hover{
     height: 230px;
     width: 210px;
     margin: 10px;
-    background: url('imagens/perfil.jpg') no-repeat center;
+    background: url('imagens/avatar-perfil.png') no-repeat center center;
+    background-size: 80px;
     border: 1px solid white;
     border-radius: 10px;
 }
@@ -223,7 +229,8 @@ nav li a:hover{
     height: 230px;
     width: 210px;
     margin: 10px;
-    background: url('imagens/perfil.jpg') no-repeat center;
+    background: url('imagens/avatar-perfil.png') no-repeat center center;
+    background-size: 80px;
     border: 1px solid white;
     border-radius: 10px;
 }
